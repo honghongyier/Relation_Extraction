@@ -1,11 +1,11 @@
 #coding:utf-8
 '''
-This is a preprocess python file for ACE2005 dataset
+This is a preprocess python file for ACE2005 dataset and SemEval dataset
 You can download this dataset from LDC
 
-As for the word2vec embedding, we use pre-trained word embedding
-Which could download here: linking
 
+As for the word2vec embedding, we use pre-trained word embedding
+Which could download here: https://code.google.com/p/word2vec/
 
 '''
 import numpy as np
@@ -704,6 +704,7 @@ if __name__ == "__main__":
 
 
     # preprocessing start
+    # code below also work on SEM dataset
     f_path = "out/ace2005"  # mention path
     out_dic = "out/ace2005/Data300_PF50/"
     R, type = sentence2vec(vector, vector_dim, f_path, out_dic, PF_R1, PF_R2, PF_dim, PF_size, "en")
