@@ -8,10 +8,10 @@ The tool we used is Keras <br>
 
 ### File intorduction: <br>
 preceprocess_ace.py -- main function to extraction structure data from ace and save it as embedding form <br>
-Xml_parse.py -- class for parse xml <br>
-ACE_Process.py -- classes for ACE Data process, includes data structure, and parse function <br>
-Relation.py -- class for turning relation mention into embedding <br>
-Open_Tool.py -- class for other tool, includes load position matrix and word matrix and so on. <br>
+c_xml_parse.py -- class for parse xml <br>
+c_ace_process.py -- classes for ACE Data process, includes data structure, and parse function <br>
+c_relation.py -- class for turning relation mention into embedding <br>
+c_open_tool.py -- class for other tool, includes load position matrix and word matrix and so on. <br>
 
 
 
