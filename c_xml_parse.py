@@ -1,5 +1,5 @@
 #coding:utf-8
- 
+
 
 class Xml_Parse_base:
     #base class for xml parsing

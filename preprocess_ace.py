@@ -9,8 +9,8 @@ Which could download here: https://code.google.com/p/word2vec/
 
 '''
 import numpy as np
-from ACE_Process import *
-from Open_Tool import Open_tool
+from c_ace_process import *
+from c_open_tool import Open_tool
 
 
 if __name__ == "__main__":

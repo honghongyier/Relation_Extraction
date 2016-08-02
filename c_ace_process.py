@@ -1,5 +1,5 @@
 #coding:utf-8
-from Xml_Parse import Xml_Parse_base
+from c_xml_parse import Xml_Parse_base
 from xml.dom import minidom
 import re
 import os

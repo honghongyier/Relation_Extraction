@@ -3,7 +3,7 @@ from numpy import random
 import numpy as np
 from gensim.models import word2vec
 import re
-from Relation import Relation
+from c_relation import Relation
 import os
 
 
