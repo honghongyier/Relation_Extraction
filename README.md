@@ -9,9 +9,14 @@ The tool we used is Keras <br>
 ### File intorduction: <br>
 preceprocess_ace.py -- main function to extraction structure data from ace and save it as embedding form <br>
 c_xml_parse.py -- class for parse xml <br>
-c_ace_process.py -- classes for ACE Data process, includes data structure, and parse function <br>
+c_ace_process.py -- classes for ACE Data process, includes definition of data structure, and parse function <br>
 c_relation.py -- class for turning relation mention into embedding <br>
 c_open_tool.py -- class for other tool, includes load position matrix and word matrix and so on. <br>
+
+### Other: <br>
+the relation mention we extracted from raw data is the form as follow: <br>
+<e1>Ivan</e1> in <e2>Wisconsin</e2>	PHYS	Located <br>
+entity are tagged followed by relation tag <br>
 
 
 
