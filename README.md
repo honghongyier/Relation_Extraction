@@ -17,10 +17,10 @@ The tool we used is Tensorflow <br>
     data2vector.py -- load the trained word2vector embed <br>
     load_data.py -- word segmentation and PF value counting, to change the raw data to [word_id, pf_id, relation_id] form<br>
 ##### data_tool:<br>
-    **seg_tool:**<br>
+    seg_tool:<br>
     cws.model is the segmentation model provided by LTP<br>
     vocab.txt is the dictionary which can be used in segmentation<br>
-    **seg_tool:**<br>
+    word2vec:<br>
     vectors.txt is the trained chinese word embedding by word2vector tool<br>
 
 
